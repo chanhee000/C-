@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\user\Desktop\한창희\2024년\1학기\20240314\20240314_1\20240314_1\main.cpp(8,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\한창희\2024년\1학기\20240314\20240314_1\20240314_1\main.cpp(10,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  20240314_1.vcxproj -> C:\Users\user\Desktop\한창희\2024년\1학기\20240314\20240314_1\x64\Debug\20240314_1.exe
