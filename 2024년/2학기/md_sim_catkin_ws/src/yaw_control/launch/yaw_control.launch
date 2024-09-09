@@ -1,0 +1,19 @@
+<launch>
+
+	<node pkg = "yaw_control" type = "yaw_control_node" name = "yaw_control" output = "screen">
+	
+    <param name = "imu_topic" 				type = "string"      value = "/imu"/>     
+	<param name = "cmd_vel_topic" 			type = "string"      value = "/ackermann_steering_controller/cmd_vel"/> 
+
+	<param name = "Kp_yaw" 					type = "double"      value = "0.01"/>
+	<param name = "Kd_yaw" 					type = "double"      value = "0.05"/>
+	<param name = "Ki_yaw" 					type = "double"      value = "0.0"/>
+	
+	<param name = "Speed"					type = "double"      value = "1.0"/>
+	<param name = "target_yaw_deg" 			type = "double"      value = "340.0"/>
+
+	
+	</node>
+	
+</launch>
+

@@ -1,0 +1,17 @@
+<launch>
+
+	<node pkg = "opencv_lane_detection" type = "opencv_lane_detection_node" name = "opencv_lane_detection_node" output = "screen">
+	
+    <param name = "camera_topic" 				type = "string"      value = "/camera/image_raw"/>   
+      
+    <param name = "m_roi_center" 				type = "int"      value = "120"/>     
+    <param name = "m_roi_height" 				type = "int"      value = "20"/>     
+    <param name = "m_roi_width" 				type = "int"      value = "320"/>    
+     
+    <param name = "img_width" 					type = "int"      value = "320"/>     
+    <param name = "img_height" 					type = "int"      value = "240"/>     
+	
+	</node>
+	
+</launch>
+
